@@ -1,6 +1,7 @@
 body {
     background-color: rgb(217, 185, 210);
     font-family: 'verdana', cursive;
+    margin: 0;
 }
 
 h3 {
@@ -17,15 +18,16 @@ p {
     color: rgb(211, 73, 151);
     font-family: courier;
     font-size: 160%;
-    margin: 0px 10%;
+    margin: 0px 5px;
     margin-top: 50px;
     font-size: 45px;
     font-family: verdana;
-    width: 200%
+    width: 750px;
+    text-align: justify;
 }
 
 .container_slider_css {
-    margin: 10% auto;
+    margin: 0px auto;
     width: 800px;
     height: 800px;
     overflow: hidden;
@@ -37,9 +39,9 @@ p {
     animation: round 12s infinite;
     opacity: 0;
     width: 90%;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 0px;
     text-align: center;
 }
 
@@ -111,5 +113,6 @@ img:nth-child(14) {
 .podval {
     background-color: rgb(182, 31, 149);
     height: 300px;
-    width: 100%;
+    width: 900px;
+    margin-top: 20px;
 }
